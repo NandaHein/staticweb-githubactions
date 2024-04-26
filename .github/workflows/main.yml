@@ -6,8 +6,6 @@ on:
       bucketname:
         description: "Enter a s3 bucket name"
         required: true
-  push:
-    branches: [ "master" ]
     
 jobs:
   create_deploy_s3_bucket:
